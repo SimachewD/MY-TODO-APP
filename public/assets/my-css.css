@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(8, 8, 39);
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#todo-table{
+    margin-top: 35px;
+    margin-left: 35px;
+    color: aliceblue;
+    background-color: rgb(5, 1, 19);
+}
+#my-ul{
+    list-style: none;
+    padding-left: 15px;
+    padding-bottom: 40px;
+}
+#list_item{
+    padding-top: 40px;
+    margin-left: 0px;
+}
+li:hover{
+    text-decoration: line-through;
+    cursor: pointer;
+}
+#itemText{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    background-color: rgb(21, 21, 38);
+}
+#btnAdd{
+    padding: 12px 20px;
+    margin: 8px 0;
+    color: aliceblue;
+    background-color: rgb(4, 4, 59);
+}
+#frm{
+    padding-left: 10px;
+    padding-top: 10px;
+}
