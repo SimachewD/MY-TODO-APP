@@ -1,8 +1,9 @@
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
+require('dotenv').config();
 
 //connect to the database
-mongoose.connect('mongodb+srv://Sime:3165@todo.gxnxhsq.mongodb.net/?retryWrites=true&w=majority');
+mongoose.connect(process.env.MONGO_URI);
 
 //create schema - it's like a blueprint
 var todoSchema = new mongoose.Schema({
